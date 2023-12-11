@@ -43,6 +43,7 @@
 
 .container .form input {
     background-color: transparent;
+    width: 100%;
     border: none;
     padding: 0 10px;
     font-size: 14px;
@@ -73,10 +74,20 @@
     background-color: #ff7b00;
     color: white;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.todo_item_container h4 {
+.todo_item_container .todo_list h4 {
     font-size: 16px;
     cursor: pointer;
     padding: 10px;
+}
+
+.todo_item_container .todo_list span {
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
 }
