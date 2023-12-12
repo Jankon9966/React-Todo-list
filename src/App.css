@@ -27,7 +27,7 @@
 }
 
 .container h1 span {
-    color: #ff7b00;
+    color: #fc9534;
 }
 
 .container .form {
@@ -54,7 +54,7 @@
 }
 
 .container .form .form_btn {
-    background-color: #ff7b00;
+    background-color: #fc9534;
     border: 1px solid transparent;
     border-radius: 3px;
     color: white;
@@ -71,7 +71,7 @@
 
 .todo_item_container .todo_list {
     border-radius: 3px;
-    background-color: #ff7b00;
+    background-color: #fc9534;
     color: white;
     margin-top: 20px;
     display: flex;
